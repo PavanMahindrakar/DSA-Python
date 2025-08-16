@@ -1,7 +1,11 @@
-## DSA-Python 🚀
+# DSA in Python 🐍🚀
 
-This repository contains my practice code and notes for learning **Data Structures and Algorithms** using **Python**.
+This repository hosts my **Data Structures & Algorithms (DSA)** solutions implemented in **Python**.  
+The goal is to practice problem-solving, strengthen algorithmic thinking, and prepare for coding interviews.
 
-## 📁 Structure
+---
 
-Each topic is organized into separate folders with multiple example files.
+## ⚡ How to Run
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/<your-username>/DSA-Python.git
