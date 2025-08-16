@@ -5,7 +5,7 @@ The goal is to practice problem-solving, strengthen algorithmic thinking, and pr
 
 ---
 
-## ⚡ How to Run
+## ​ How to Run
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-username>/DSA-Python.git
+   git clone https://github.com/PavanMahindrakar/DSA-Python.git
