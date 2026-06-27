@@ -1,12 +1,13 @@
-# Approach   # Time Complexity: O(n)
-n = int(input("Enter a number: "))
+class Solution():
+    def revserse(self, n):
+        revNum = 0
+        while n > 0:
+            lastDigit = n % 10
+            revNum = (revNum * 10) + lastDigit
+            n = n // 10
 
-revNumber = 0
-while n > 0:
-    last_digit = n % 10
-    revNumber = revNumber * 10 + last_digit
-    n = n // 10
+        return revNum
 
-print("Reversed number:", revNumber)
-
-
+sol = Solution()
+s = sol.revserse(7789)
+print(s)
