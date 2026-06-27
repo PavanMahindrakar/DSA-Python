@@ -1,15 +1,18 @@
-n = int(input("Enter a number: "))
-dup = n
-revNumber = 0
-while n > 0:
-    last_digit = n % 10
-    revNumber = revNumber * 10 + last_digit
-    n = n // 10
+class Solution():
+    def isPalindrome(self, n):
+        if n < 0:
+            return False
+        
+        dup = n
+        rev = 0
+        while n > 0:
+            last_digit = n % 10
+            rev = (rev * 10) + last_digit
+            n = n // 10
 
-if dup == revNumber:
-    print("Palindrome")
-else:
-    print("Not Palindrome")
-
-
-# time complexity: O(n)
+        return dup == rev
+    
+# Example usage:
+sol = Solution()
+print(sol.isPalindrome(121))  # Output: True
+print(sol.isPalindrome(-121)) # Output: False
